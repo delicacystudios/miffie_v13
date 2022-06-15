@@ -1,0 +1,40 @@
+{
+  "name": "miffie",
+  "version": "1.0.0",
+  "description": "Новый универсальный бот для вашего сервера",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/delicacystudios/miffie_v13.git"
+  },
+  "author": "NateAles | NateDev",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/delicacystudios/miffie_v13/issues"
+  },
+  "homepage": "https://github.com/delicacystudios/miffie_v13#readme",
+  "dependencies": {
+    "ascii-table": "0.0.9",
+    "axios": "^0.27.2",
+    "connect-mongo": "^4.6.0",
+    "cors": "^2.8.5",
+    "discord.js": "^12.5.3",
+    "dotenv": "^14.3.2",
+    "erela.js": "^2.3.3",
+    "erela.js-spotify": "^1.2.0",
+    "express": "^4.18.1",
+    "express-session": "^1.17.2",
+    "mongoose": "^6.2.1",
+    "node-fetch": "^3.2.4",
+    "node-os-utils": "^1.3.6",
+    "passport": "^0.5.2",
+    "passport-discord": "^0.1.4",
+    "pretty-ms": "^7.0.1"
+  },
+  "devDependencies": {
+    "concurrently": "^7.1.0"
+  }
+}
